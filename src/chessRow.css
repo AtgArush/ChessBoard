@@ -1,0 +1,24 @@
+.base{
+    display: flex;
+    flex-direction: column;
+}
+.chessRow{
+    display: flex;
+}
+
+.chessRowTwo{
+    display: flex;
+}
+
+.box{
+    background-color: black;
+    height: 5vw;
+    width: 5vw;
+    /* margin: 10px; */
+}
+.chessRow .box:nth-of-type(odd){
+    background-color: #f3f2f8 !important;
+}
+.chessRowTwo .box:nth-of-type(even){
+    background-color: #f3f2f8 !important;
+}
